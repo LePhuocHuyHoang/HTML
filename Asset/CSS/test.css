@@ -1,0 +1,199 @@
+html {
+    background-image: url(../img/cv.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  :root {
+    --border-radius-default: 20px;
+  }
+  
+  .CV {
+    width: 100%;
+    max-width: 1320px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+    /* margin: 40px auto; */
+    box-sizing: border-box;
+  }
+  
+  .wrapper {
+    margin: 240px auto;
+    position: relative;
+    height: fit-content;
+    display: flex;
+  }
+  
+  .personal_info {
+    width: 100%;
+    max-width: 400px;
+    height: 800px;
+    border-radius: var(--border-radius-default);
+    background-color: #ffffff;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .menu {
+    background-color: red;
+    border-radius: 16px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 30px;
+  }
+  
+  .menu_item {
+    border-radius: 12px;
+    width: 84px;
+    height: 84px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f6f6;
+    flex-direction: column;
+    margin-right: 20px;
+  }
+  .menu_item.active {
+    background: linear-gradient(153.43deg, #fa5252 16.67%, #dd2476 100%);
+  }
+  .menu_item:last-child {
+    margin-right: 0;
+  }
+  .item_icon {
+    margin-bottom: 7px;
+  }
+  .item_title {
+    margin: 0;
+    color: #44566c;
+  }
+  
+  .menu_item.active .item_title {
+    color: #fff;
+  }
+  
+  .about_section {
+    margin: 184px 0 0 40px;
+    flex: 1;
+    height: 1200px;
+    background-color: blue;
+    border-radius: var(--border-radius-default);
+  }
+  
+  .personal_image {
+    width: 240px;
+    height: 240px;
+    border-radius: 20px;
+    position: absolute;
+    top: -120px;
+    left: 80px;
+  }
+  .personal_name {
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    margin: 140px 0 15px 0;
+  }
+  .personal_career {
+    height: auto;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #f3f6f7;
+    margin: 0 auto;
+    padding: 5px 20px;
+  }
+  .social_icons {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    /* width: 190px;
+      height: 40px; */
+    margin: 20px auto 0 auto;
+  }
+  .social_icon {
+    width: auto;
+    height: 23px;
+    background-color: #f3f6f6;
+  }
+  .personal_card {
+    width: 340px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    /* align-items:flex-start; */
+    background-color: #f3f6f6;
+    border-radius: 16px;
+    margin: 30px 0 0 30px;
+  }
+  .card_phone {
+    display: flex;
+    align-items: center;
+    margin: 30px 0 0 30px;
+  }
+  .card_email {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+  }
+  .card_location {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+  }
+  .card_birthday {
+    display: flex;
+    align-items: center;
+    margin: 0 0 30px 30px;
+  }
+  .card_icon {
+    width: auto;
+    height: 22px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.08);
+  }
+  .card_content {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+  .card_name {
+  }
+  .card_info {
+    margin-top: -15px;
+  }
+  .download_btn {
+    width: 215px;
+    height: 55px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    background: linear-gradient(93.74deg, #fa5252 0%, #dd2476 100%);
+    font-size: 18px;
+    margin: 30px auto 40px auto;
+  }
+  .btn_icon {
+    width: 22px;
+    margin-right: 6px;
+  }
+  
+  .personal_card > div:nth-child(-n + 3) {
+    border-bottom: 1px solid #e3e3e3;
+    width: 280px;
+  }
+
+  

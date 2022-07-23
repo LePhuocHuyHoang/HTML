@@ -1,0 +1,215 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+a:hover {
+
+  color: #2daaed;
+
+  text-decoration: none;
+
+}
+
+.color:hover {
+
+  color: #2daaed;
+
+  text-decoration: none;
+}
+
+.container {
+  width: 840px;
+  height: 155px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.bigitem {
+  display: flex;
+}
+
+.item {
+  flex: 0;
+}
+
+.item1 {
+  width: 90px;
+  flex: 1;
+  line-height: 5px;
+
+}
+
+.item2 {
+  flex: 1;
+  justify-content: space-between;
+  margin-top: 17px;
+  display: flex;
+
+}
+
+.more {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.ringphone {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.share {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.downloadmusic {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.add {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.logo {
+  width: 48px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  height: auto;
+  float: left;
+}
+
+p {
+  margin: 0, auto;
+}
+
+.provider {
+  font-weight: bold;
+  color: #0689ba;
+}
+
+.audio {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 155px;
+  background: #000000;
+  border-radius: 5px;
+  margin-bottom: 12px;
+  position: unset;
+}
+
+.image_audio {
+  width: 80px;
+  height: 80px;
+  position: unset;
+  margin: 11px;
+}
+
+.audio_file {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: aliceblue;
+  position: unset;
+}
+
+.provided {
+  font-size: 14px;
+  color: #333333;
+  display: inline;
+  font-family: sans-serif;
+}
+
+.lyric {
+  font-size: 14px;
+  color: #333333;
+  font-family: sans-serif;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  float: right;
+}
+
+.abc {
+  float: right;
+  margin-top: 3px;
+  margin-left: 5px;
+}
+
+
+.lyrictable {
+  border: 1px solid #c9c9c9;
+  padding: 18px;
+}
+
+.lrtb1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lrtbname {
+  line-height: 5px;
+}
+
+.lrtbcopy {
+  right: 0;
+}
+
+.lrtb2 {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.linestyle1 {
+  margin-top: -16px;
+}
+
+.linestyle2 {
+  margin-top: -2px;
+}
+
+.titleandheadphone {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {}
+
+.headphone {
+  display: inline-flex;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 838px;
+  border: 1px solid #c9c9c9;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 4px 16px;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 155px;
+}

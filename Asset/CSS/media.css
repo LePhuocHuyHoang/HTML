@@ -1,0 +1,155 @@
+/* @media screen and (max-height: 1200px){
+    .nav{
+        position: fixed;
+        top:0;
+    }
+}
+     */
+
+@media screen and (max-width: 1200px){
+    .nav{
+      flex-direction: column;
+      right: unset;
+      left: -113px;
+      top: 60px;
+      transform: scale(0.8);
+      transition: 0.5s ease-in-out;
+      position: fixed;
+    }
+    .nav:hover{
+        left: -20px;
+    }
+    .nav_item{
+      margin-bottom: 20px;
+    }
+    .wrapper{
+        display: unset;
+    }
+    .main{
+        margin: unset;
+        margin: 30px 0px 0px 0px;
+    }
+    .sidebar{
+        width: 100%;
+        height: auto;
+        margin-top: 120px;
+    }
+    .cart{
+        width: auto
+    }
+    .download{
+        align-self: center;
+    }
+    .image{
+        top: 60px;
+        left: 60px;
+    }
+    .designation{
+        margin: 0 auto auto 330px;
+    }
+    .name{
+        justify-content: unset;
+        margin: 140px 0 15px 330px;
+    }
+    .social_icons{
+        margin: 10px auto 0 330px;
+    }
+    .cart{
+        margin-left: 330px;
+    }
+    .download{
+        margin-left: 330px  ;
+    }
+    .collective_tab{
+        margin-right: 60px;
+    }
+    .first_content{
+        max-width: none;
+        margin-right: 60px;
+    }
+    .second_content{
+        max-width: none;
+        margin-right: 60px;
+    }
+}
+@media screen and (max-width: 768px){
+    .image{
+        align-self: center;
+        left: unset;
+    }
+    .designation{
+        margin: 0 auto;
+    }
+    .name{
+        margin: 320px 0 15px 0;
+        justify-content: center;
+    }
+    .social_icons{
+        margin: 10px auto;
+    }
+    .cart{
+        margin-left: unset;
+        width: 340px;
+        margin-right: unset;
+        align-self: center;
+    }
+    .box_download{
+        align-self: center;
+    }
+    .download{
+        margin-left: unset;
+    }
+    .download button{
+        align-self: center;
+    }
+    .skill{
+        width: auto;
+        margin-right: 60px;
+    }
+    .skill_section{
+        display: unset;
+    }
+    .knowledges{
+        margin-left: 60px;
+        width: 100%;
+    }
+    .education_experience{
+        display: unset;
+    }
+    .education{
+        width: 100%;
+    }
+    .single_education_info:nth-child(1) {
+        margin-right: 60px;
+      }
+    .single_education_info:nth-child(2) {
+        margin-right: 60px;
+      }
+    .single_education_info:nth-child(3) {
+        margin-right: 60px;
+      }
+    .experience{
+        width: 100%;
+        margin-left: 30px;
+    }
+    .single_experience_info:nth-child(1) {
+        width: auto;
+        margin-right: 90px;
+      }
+    .single_experience_info:nth-child(2) {
+        width: auto;
+        margin-right: 90px;
+      }
+    .single_experience_info:nth-child(3) {
+        width: auto;
+        margin-right: 90px;
+      }
+    .brand{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+    }
+    .text_end{
+        margin-top: 30px;
+    }
+}
