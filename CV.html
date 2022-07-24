@@ -1,63 +1,366 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page1</title>
-    <link rel="stylesheet" href="./CV.css">
-</head>
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/2666/2666421.png">
+    <title>My CV</title>
+    <link rel="stylesheet" href="/Asset/CSS/last_project.css">
+    <link rel="stylesheet" href="/Asset/CSS/media.css">
 
+</head>
 <body>
-    <div class="page1">
-        <div class="page1__sum">
-            <div class="page1__menu">
-                <div class="menu_button">
-                    <div class="button__about"></div>
-                    <div class="button__resume"></div>
-                    <div class="button__works"></div>
-                    <div class="button__vlogs"></div>
-                    <div class="button__contact"></div>
+    <div class="container">
+        <div class="wrapper">
+            <div class="sidebar">
+                <div class="image">
+                    <img style="border-radius: 20px;" width="240px" height="240px" src="/Asset/img/braid/deptrai.jpg">   
                 </div>
-            </div>
-            <div class="page1__personal">
-                <div class="personal__ava"></div>
-                <div class="personal__info1">
-                    <div class="info__name"></div>
-                    <div class="info__major"></div>
-                    <div class="info__socialmedia">
-                        <div class="socialmedia__facebook"></div>
-                        <div class="socialmedia__twitter"></div>
-                        <div class="socialmedia__instagram"></div>
-                        <div class="socialmedia__linkendin"></div>
+                <div class="name">
+                    <span> Lê </span>
+                    <span class="line_break"> Phước Huy </span>
+                    <span> Hoàng</span>
+                </div>
+                <div class="designation">
+                    <div class="text_designation">
+                        Management Information Systems
                     </div>
                 </div>
-                <div class="personal__info2">
-                    <div class="info2__phone"></div>
-                    <div class="info2__email"></div>
-                    <div class="info2__location"></div>
-                    <div class="info2__birthday"></div>
+                <div class="social_icons">
+                    <div class="image_social">
+                        <a href="https://www.facebook.com/nhocx.phuocx" target="_blank" ><img src="/Asset/img/braid/facebook (1).svg">
+                        </a>
+                    </div>
+                    <div class="image_social">
+                        <a href="https://twitter.com/?lang=vi" target="_blank"><img src="/Asset/img/braid/twitter.svg">
+                        </a>
+                    </div>
+                    <div class="image_social">
+                        <a href="https://www.instagram.com/huyhoang_47/" target="_blank"><img src="/Asset/img/braid/instragram.svg">
+                        </a>
+                    </div>
+                    <div class="image_social">
+                        <a href="https://www.linkedin.com/" target="_blank"><img src="/Asset/img/braid/linkedin.svg">
+                        </a>
+                    </div>
                 </div>
-                <div class="personal__downloadCV"></div>
+                <div class="cart">
+                    <div class="phone">
+                        <div class="phone_icon">
+                            <img src="/Asset/img/braid/phone.svg" alt="phone">
+                        </div>
+                        <div class="box_phone">
+                            <p class="tittle_cart" style="display:block"> Phone </p>
+                            <p class="text_cart" style="display: inline;">+081 602 3479</p>
+                        </div>
+                    </div>
+                    <hr class="line">
+                    <div class="mail">
+                        <div>
+                            <img src="/Asset/img/braid/mail.svg" alt="mail">
+                        </div>
+                        <div>
+                            <p class="tittle_cart" style="display:block">Email</p>
+                            <p class="text_cart" style="display: inline;">lehoang29103@gmail.com</p>
+                        </div>
+                    </div>
+                    <hr class="line">
+                    <div class="local">
+                        <div>
+                            <img src="/Asset/img/braid/local.svg" alt="local">
+                        </div>
+                        <div>
+                            <p class="tittle_cart" style="display:block">Location</p>
+                            <p class="text_cart" style="display: inline;">Chư Sê, Gia Lai</p>
+                        </div>
+                    </div>
+                    <hr class="line">
+                    <div class="birthday">
+                        <div>
+                            <img src="/Asset/img/braid/calendar.svg" alt="birthday">
+                                </div>
+                        <div>
+                            <p class="tittle_cart" style="display:block">Birthday</p>
+                            <p class="text_cart" style="display: inline;">July 04, 2002</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box_download">
+                    <button class="download">
+                        <img class="icon_download" src="/Asset/img/braid/download.svg">
+                        <p class="text_download" style="color: #FFFFFF;">Download CV</p>
+                    </button> 
+                </div> 
             </div>
-            <div class="page1__overview">
-                <div class="overview__header">
-                    <div class="head__aboutme"></div>
+            <div class="nav">
+                <div>
+                <a href="#">
+                    <button class="nav_item active">
+                        <img class="icon_item" src="/Asset/img/braid/about_black.svg">
+                        <p class="text_item" style="color: #44566c;">About</p>
+                    </button> 
+                </a>
                 </div>
-                <div class="overview__body">
-                    <div class="body__workingskills"></div>
-                    <div class="body__knowledges"></div>
-                    <div class="body__education"></div>
-                    <div class="body__experience"></div>
+                <div>
+                    <a href="#">
+                        <button class="nav_item">
+                            <img class="icon_item" src="/Asset/img/braid/resume.svg">
+                            <p class="text_item" style="color: #44566c;">Resume</p>
+                        </button> 
+                    </a>
                 </div>
-                <div class="overview__footer">
-                    <div class="footer__title"></div>
-                    <div class="footer__clients"></div>
+                <div>
+                    <a href="#">
+                        <button class="nav_item">
+                            <img class="icon_item" src="/Asset/img/braid/works.svg">
+                            <p class="text_item" style="color: #44566c;">Works</p>
+                        </button> 
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <button class="nav_item">
+                            <img class="icon_item" src="/Asset/img/braid/blogs.svg">
+                            <p class="text_item" style="color: #44566c;">Blogs</p>
+                        </button> 
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <button class="nav_item">
+                            <img class="icon_item" src="/Asset/img/braid/contacts.svg">
+                            <p class="text_item" style="color: #44566c;">Contact</p>
+                        </button> 
+                    </a>
+                </div>
+            </div>
+            <div class="main">
+                <div class="header">
+                    <div class="tittle_about">
+                        <p class="btn"> About Me</p>
+                    </div>
+                    <div class="bar">
+                        <img src="/Asset/img/Braid/bar.svg">
+                    </div>
+                </div>
+                <div>
+                    <p class="first_content">
+                        I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.
+                    </p>
+                </div>
+                <div>
+                    <p class="second_content">
+                        My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.
+                    </p>
+                </div>
+                <div class="skill_section">
+                    <div class="skill">
+                        <div class="tittle_skill">
+                            <b>
+                                Working Skill
+                            </b>
+                        </div>
+                        <div class="skill_bar">
+                            <div class="singer_skill_bar">
+                                <p> HTML </p>
+                                <P> 85% </P>
+                            </div>
+                            <div class="skill_percent_html">
+                                <progress max="100" value="85"></progress>
+                            </div>
+                            <div class="singer_skill_bar">
+                                <p> CSS </p>
+                                <P> 55% </P>
+                            </div>
+                            <div class="skill_percent_css">
+                                <progress max="100" value="55"></progress>
+                            </div>
+                            <div class="singer_skill_bar">
+                                <p> JavaScrip </p>
+                                <P> 65% </P>
+                            </div>
+                            <div class="skill_percent_javascrip">
+                                <progress max="100" value="65"></progress>
+                            </div>
+                            <div class="singer_skill_bar">
+                                <p> ReactJS </p>
+                                <P> 72% </P>
+                            </div>
+                            <div class="skill_percent_reacjs">
+                                <progress max="100" value="72"></progress>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="knowledges">
+                        <div class="tittle_knowledges">
+                            <b>
+                                Knowledges
+                            </b>
+                        </div>
+                        <div class="collective_tab">
+                            <div class="sigle_tab">
+                                <div class="text_tab">
+                                    Bootstrap
+                                </div>
+                            </div>
+                            <div class="sigle_tab">
+                                <div class="text_tab">
+                                    Git
+                                </div>
+                            </div>
+                            <div class="sigle_tab">
+                                <div class="text_tab">
+                                    Scrum
+                                </div>
+                            </div>
+                            <div class="sigle_tab">
+                                <div class="text_tab">
+                                    Team Work
+                                </div>
+                            </div>
+                            <div class="sigle_tab">
+                                <div class="text_tab">
+                                    Figma
+                                </div>
+                            </div>
+                            <div class="sigle_tab">
+                                <div class="text_tab">
+                                    Time Management
+                                </div>
+                            </div>
+                            <div class="sigle_tab">
+                                <div class="text_tab">
+                                    Flexibility
+                                </div>
+                            </div>
+                            <div class="sigle_tab">
+                                <div class="text_tab">
+                                    Redux - Saga
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="education_experience">
+                    <div class="education">
+                        <div class="tittle_education">
+                            <div class="icon_education">
+                                <img src="/Asset/img/braid/education.svg">
+                            </div>
+                            <div class="first_tittle_education">
+                                <b>
+                                    Education
+                                </b>
+                            </div>
+                        </div>
+                        <div class="collective_education_info">
+                            <div class="single_education_info">
+                               <div>
+                                    <div class="time">
+                                        <p> 2021-2023 </p>
+                                    </div>
+                                    <div class="text_education">
+                                        <p class="b_education">Ph.D in Horriblensess -<span class="smoke_education"> ABC University, Los Angeles, CA</span> </p>
+                                    </div>
+                               </div>
+                            </div>
+                            <div class="single_education_info">
+                               <div class="text_box_education">
+                                    <div class="time">
+                                        <p> 2017-2021 </p>
+                                    </div>
+                                    <div class="text_education">
+                                        <p class="b_education">Computer Science -<span class="smoke_education"> Imperialize Technical Institute</span> </p>
+                                    </div>
+                               </div>
+                            </div>
+                            <div class="single_education_info">
+                                <div class="text_box_education">
+                                    <div class="time">
+                                        <p> 2015-2017 </p>
+                                    </div>
+                                    <div class="text_education">
+                                        <p class="b_education">Graphic Designer -<span class="smoke_education"> Web Graphy, Los Angeles, CA</span> </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience">
+                        <div class="tittle_experience">
+                            <div class="icon_experience">
+                                <img src="/Asset/img/braid/Experience.svg">
+                            </div>
+                            <div class="first_tittle_experience">
+                                <b>
+                                    Experience
+                                </b>
+                            </div>
+                        </div>
+                        <div class="collective_experience_info">
+                            <div class="single_experience_info">
+                                <div class="text_box_experience">
+                                    <div class="time">
+                                        <p> 2019 - Present </p>
+                                    </div>
+                                    <div class="text_experience">
+                                        <p class="b_experience">Sr. Software Tester<span class="smoke_experience"> Google Inc.</span> </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single_experience_info">
+                               <div class="text_box_experience">
+                                    <div class="time">
+                                        <p> 2015-2017 </p>
+                                    </div>
+                                    <div class="text_experience">
+                                        <p class="b_experience">Cr. Web Developer<span class="smoke_experience"> ib-themes ltd.</span> </p>
+                                    </div>
+                               </div>
+                            </div>
+                            <div class="single_experience_info">
+                                <div class="text_box_experience">
+                                    <div class="time">
+                                        <p> 2014 - 2015 </p>
+                                    </div>
+                                    <div class="text_experience">
+                                        <p class="b_experience">Jr. Web Developer<span class="smoke_experience"> Creative Gigs.</span> </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clients_section">
+                    <div class="tittle_clients">
+                        <b> Clients </b>
+                    </div>
+                    <div class="brand">
+                        <div class="first_brand">
+                            <img src="/Asset/img/braid/firstbrand.svg">
+                        </div>
+                        <div class="second_brand">
+                            <img src="/Asset/img/braid/secondbrand.svg">
+                        </div>
+                        <div class="third_brand">
+                            <img src="/Asset/img/braid/thirdbrand.svg">
+                        </div>
+                        <div class="fourth_brand">
+                            <img src="/Asset/img/braid/fourthbrand.svg">
+                        </div>
+                        <div class="fifth_brand">
+                            <img src="/Asset/img/braid/fifthbrand.svg">
+                        </div>
+                    </div>
+                </div>
+                <div class="text_end">
+                    <p>
+                        © 2021 All Rights Reserved by ib-themes.
+                    </p>
                 </div>
             </div>
         </div>
     </div>
 </body>
-
 </html>
