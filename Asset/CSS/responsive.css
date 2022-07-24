@@ -1,25 +1,6 @@
 @media screen and (max-width: 1200px){
-    .nav{
-      flex-direction: column;
-      right: unset;
-      left: -113px;
-      top: 60px;
-      transform: scale(0.8);
-      transition: 0.5s ease-in-out;
-      position: fixed;
-    }
-    .nav:hover{
-        left: -20px;
-    }
-    .nav_item{
-      margin-bottom: 20px;
-    }
     .wrapper{
         display: unset;
-    }
-    .main{
-        margin: unset;
-        margin: 30px 0px 0px 0px;
     }
     .sidebar{
         width: 100%;
@@ -40,14 +21,33 @@
     .social_icons{
         margin: 10px auto 0 330px;
     }
-    .cart{
+    .card{
         width: auto;
         margin-left: 330px;
     }
-    .download{
+    .download_button{
         align-self: center;
         margin-left: 330px  ;
     }
+    .nav{
+      flex-direction: column;
+      position: fixed;
+      right: unset;
+      left: -113px;
+      top: 60px;
+      transform: scale(0.8);
+      transition: 0.5s ease-in-out;
+    }
+    .nav:hover{
+        left: -20px;
+    }
+    .nav_item{
+      margin-bottom: 20px;
+    }
+    .main{
+        margin: unset;
+        margin: 30px 0px 0px 0px;
+    } 
     .first_content{
         max-width: none;
         margin-right: 60px;
@@ -69,8 +69,8 @@
         left: unset;
     }
     .name{
-        margin: 320px 0 15px 0;
         justify-content: center;
+        margin: 320px 0 15px 0;
     }
     .designation{
         margin: 0 auto;
@@ -78,19 +78,19 @@
     .social_icons{
         margin: 10px auto;
     }
-    .cart{
-        margin-left: unset;
+    .card{
+        align-self: center;
         width: 340px;
+        margin-left: unset;
         margin-right: unset;
-        align-self: center;
-    }
-    .box_download{
-        align-self: center;
     }
     .download{
+        align-self: center;
+    }
+    .download_button{
         margin-left: unset;
     }
-    .download button{
+    .download_button button{
         align-self: center;
     }
     .bar{
@@ -104,9 +104,12 @@
         display: unset;
     }
     .knowledges{
-        padding-right: 60px;
         width: 100%;
+        padding-right: 60px;
         padding-left: 30px;
+    }
+    .collective_tab{
+        padding-right: 60px;
     }
     .education_experience{
         display: unset;
@@ -144,11 +147,8 @@
         flex-wrap: wrap;
         margin-bottom: 30px;
     }
-    .text_end{
+    .all_rights_reserved{
         margin-top: 30px;
         padding-top: 20px;
-    }
-    .collective_tab{
-        padding-right: 60px;
     }
 }

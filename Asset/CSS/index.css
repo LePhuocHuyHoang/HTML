@@ -6,14 +6,14 @@ body {
 :root{
     --border-radius-default: 20px;
 }
-@font-face {
+/* @font-face {
   font-family: Poppins;
   src: url(/Asset/Font/Poppins-Regular.ttf);
 }
 @font-face {
   font-family: Roboto Slab;
   src: url(/Asset/Font/RobotoSlab-VariableFont_wght.ttf);
-}
+} */
 .container{
   width: 100%;
   max-width: 1320px;
@@ -63,10 +63,10 @@ body {
   width: 190px;
   margin: 10px auto 0 auto;
 }
-.image_social{
+.icon_social{
   margin-top: 10px;
 }
-.cart{
+.card{
   width: 305px;
   height: 246px;
   margin: 30px 30px auto 30px;
@@ -81,13 +81,13 @@ body {
   border: 1px solid #E3E3E3;
   border-radius: 25px;
 }
-.tittle_cart{
+.tittle_card{
   color: #44566C;
   font-family: 'Poppins';
   font-size: 12px;
   line-height: 0px;
 }
-.text_cart{
+.text_card{
   font-family: 'Poppins';
 }
 .phone {
@@ -105,7 +105,7 @@ body {
   display: flex;
   margin-top: 20px;
 }
-.download{
+.download_button{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -117,7 +117,7 @@ body {
   border-radius: 10px;
   border: hidden;
 }
-.download:hover{
+.download_button:hover{
   background: linear-gradient(153.43deg, #fc4a1a 16.67%, #f7b733 100%);
 }
 .nav{
@@ -266,7 +266,7 @@ progress::-webkit-progress-bar {
   margin-top: 28px;
   gap: 12px;
 }
-.text_tab{
+.single_tab{
   padding: 5px 20px;
   margin-top: 8px;
   color: #44566C;
@@ -284,7 +284,7 @@ progress::-webkit-progress-bar {
 .text_box_education{
   max-width: 320px;
 }
-.tittle_education{
+.education_header{
   display: flex;
   margin: 60px 0 0 60px;
   gap: 10px;
@@ -292,7 +292,7 @@ progress::-webkit-progress-bar {
 .icon_education{
   margin-top: 6px;
 }
-.first_tittle_education{
+.tittle_education{
   font-family: 'Poppins';
   font-size: 26px;
   line-height: 39px;
@@ -307,13 +307,13 @@ progress::-webkit-progress-bar {
   font-family: 'Poppins';
   font-size: 14px;
 }
-.b_education{
+.text_education_bold_style{
   margin-top: -5px;
   font-family: 'Poppins';
   font-size: 18px;
   line-height: 30px;
 }
-.smoke_education{
+.text_education_smoke_style{
   color: #44566C;
   font-family: 'Poppins';
   font-size: 16px;
@@ -346,7 +346,7 @@ progress::-webkit-progress-bar {
 .text_experience{
   margin-left: 20px;
 }
-.tittle_experience{
+.experience_header{
   display: flex;
   margin: 60px 0 0 30px;
   gap: 10px;
@@ -355,7 +355,7 @@ progress::-webkit-progress-bar {
   width: 38px;
   margin-top: 4px;
 }
-.first_tittle_experience{
+.tittle_experience{
   font-family: 'Poppins';
   font-size: 26px;
   line-height: 39px;
@@ -363,13 +363,13 @@ progress::-webkit-progress-bar {
 .collective_experience_info{
   margin-left: 30px;
 }
-.b_experience{  
+.text_experience_bold_style{  
   margin-top: -5px;
   font-family: 'Poppins';
   font-size: 18px;
   line-height: 30px;
 }
-.smoke_experience{
+.text_experience_smoke_style{
   color: #44566C;
   font-size: 16px;
 }
@@ -417,7 +417,7 @@ display: flex;
 justify-content: space-between;
 margin: 30px 61px 0;
 }
-.text_end{
+.all_rights_reserved{
 color: #44566C;
 font-family: 'Poppins';
 line-height: 28px;
