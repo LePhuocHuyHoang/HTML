@@ -46,6 +46,7 @@ body {
   margin: 140px 0 15px 0;
   font-family: 'Roboto Slab';
   font-size: 26px;
+  font-weight: 500;
 }
 .designation{
   margin: 0 auto;
@@ -55,6 +56,7 @@ body {
 }
 .text_designation{
   font-family: 'Poppins';
+  font-weight: 500;
   line-height: 25px;
 }
 .social_icons{
@@ -86,9 +88,13 @@ body {
   font-family: 'Poppins';
   font-size: 12px;
   line-height: 0px;
+  font-weight: 400;
+  font-size: 12px;
 }
 .text_card{
   font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 16px;
 }
 .phone {
   display: flex;
@@ -135,6 +141,8 @@ body {
 }
 .text_item{
   font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 13px;
 }
 .nav_item{
   width: 84px;
@@ -190,6 +198,8 @@ body {
   padding-left: 60px;
   color: #44566C;
   font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 16px;
   line-height: 28px;
  }
 .second_content{
@@ -197,6 +207,8 @@ body {
   padding-left: 60px;
   color: #44566C;
   font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 16px;
   line-height: 28px;
  }
 .skill_section{
@@ -214,6 +226,7 @@ body {
   margin-top: -26px;
   padding-top: 60px;
   font-family: 'Poppins';
+  font-weight: 500;
   font-size: 26px;
   line-height: 39px;
  }
@@ -222,7 +235,10 @@ body {
   justify-content: space-between;
   margin-top: 30px;
   margin-bottom: -3px;
+  color: #44566C;
   font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 16px;
  }
 progress {
   width: 100%;
@@ -257,6 +273,7 @@ progress::-webkit-progress-bar {
 .tittle_knowledges{
   margin-top: -26px;
   font-family: 'Poppins';
+  font-weight: 500;
   font-size: 26px;
   line-height: 39px;
 }
@@ -271,6 +288,8 @@ progress::-webkit-progress-bar {
   margin-top: 8px;
   color: #44566C;
   font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 16px;
   line-height: 25px;
   background: #EDF2F2;
   border-radius: 8px;
@@ -295,6 +314,7 @@ progress::-webkit-progress-bar {
 .tittle_education{
   font-family: 'Poppins';
   font-size: 26px;
+  font-weight: 500;
   line-height: 39px;
 }
 .collective_education_info{
@@ -306,17 +326,20 @@ progress::-webkit-progress-bar {
   color: #44566C;
   font-family: 'Poppins';
   font-size: 14px;
+  font-weight: 400;
 }
 .text_education_bold_style{
   margin-top: -5px;
   font-family: 'Poppins';
   font-size: 18px;
+  font-weight: 400;
   line-height: 30px;
 }
 .text_education_smoke_style{
   color: #44566C;
   font-family: 'Poppins';
   font-size: 16px;
+  font-weight: 400;
 }
 .text_education{
   margin-left: 20px;
@@ -358,6 +381,7 @@ progress::-webkit-progress-bar {
 .tittle_experience{
   font-family: 'Poppins';
   font-size: 26px;
+  font-weight: 500;
   line-height: 39px;
 }
 .collective_experience_info{
@@ -410,6 +434,7 @@ padding-top: 40px;
 text-align: center;
 font-family: 'Poppins';
 font-size: 28px;
+font-weight: 500;
 line-height: 42px;
 }
 .brand{
@@ -420,9 +445,10 @@ margin: 30px 61px 0;
 .all_rights_reserved{
 color: #44566C;
 font-family: 'Poppins';
+font-weight: 400;
+font-size: 16px;
 line-height: 28px;
 text-align: center;
-
 }
 
  
