@@ -152,3 +152,77 @@
         padding-top: 20px;
     }
 }
+@media screen and (max-width:480px){
+    .sidebar{
+        height: 100%;
+    }
+    .card{
+        max-width: fit-content;
+        width: auto;
+        height: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-right: 30px;
+    }
+    .phone{
+        display: unset;
+        text-align: center;
+    }
+    .mail{
+        display: unset;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .local{
+        display: unset;
+        text-align: center;
+    }
+    .birthday{
+        display: unset;
+        text-align: center;
+    }
+    .mail_icon{
+        margin-top: 30px;
+    }
+    .local_icon{
+        margin-top: 30px;
+    }
+    .birthday_icon{
+        margin-top: 30px;
+    }
+    .tittle_text_card{
+        margin-bottom: 30px;
+    }
+    .header{
+        display: unset;
+    }
+    .bar{
+        margin-bottom: 55px;
+        margin-top: -25px;
+        margin-left: 60px;
+    }
+    .single_education_info:nth-child(1){
+        height: auto;
+    }
+    .single_education_info:nth-child(2){
+        height: auto;
+    }
+    .single_education_info:nth-child(3){
+        height: auto;
+    }
+    .single_experience_info:nth-child(1){
+        height: auto;
+    }
+    .single_experience_info:nth-child(2){
+        height: auto;
+    }
+    .single_experience_info:nth-child(3){
+        height: auto;
+    }
+    .text_box_experience{
+        height: auto;
+       }
+    .all_rights_reserved{
+        padding-top: 80px;
+    }
+}
