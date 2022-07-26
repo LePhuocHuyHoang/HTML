@@ -143,9 +143,12 @@
         margin-right: 90px;
       }
     .brand{
-        display: flex;
         flex-wrap: wrap;
         margin-bottom: 30px;
+    }
+    .brand img{
+        margin-bottom: 30px;
+        margin-right: 10px;
     }
     .all_rights_reserved{
         margin-top: 30px;
@@ -221,8 +224,11 @@
     }
     .text_box_experience{
         height: auto;
-       }
-    .all_rights_reserved{
-        padding-top: 80px;
+    }
+   .clients_section{
+        height: auto;
+    }
+    .brand  img{
+        margin-bottom: 50px;
     }
 }
