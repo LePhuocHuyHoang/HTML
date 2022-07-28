@@ -1,0 +1,53 @@
+.single_blog{
+    display: flex;
+    flex-wrap: wrap;
+}
+.single_blog_bg{
+    width: 350px;
+    margin-top: -28px;
+    margin-left: 60px;
+    margin-bottom: 60px;
+}
+.single_blog_img{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.single_blog_bg:nth-child(1) {
+    background: #FCF4FF;
+    border-radius: 12px;
+}
+.single_blog_bg:nth-child(2) {
+    margin-left: 35px;
+    background: #FFF0F0;
+    border-radius: 12px;
+}
+.single_blog_bg:nth-child(3) {
+    background: #EEFBFF;
+    border-radius: 12px;
+}
+.single_blog_bg:nth-child(4) {
+    margin-left: 35px;
+    background: #FFF3FC;
+    border-radius: 12px;
+}
+.time{
+    margin-top: 20px;
+}
+.tittle_blog{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+     color: #000000;
+}
+.all_rights_reserved{
+    width: 850px;
+    height: 68px;
+    padding-top: 20px;
+    margin-top: 60px;
+    background: #F8FBFB;
+}
