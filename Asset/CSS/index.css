@@ -122,6 +122,7 @@ body {
   gap: 10px;
   border-radius: 10px;
   border: hidden;
+  cursor: pointer;
 }
 .download_button:hover{
   background: linear-gradient(153.43deg, #fc4a1a 16.67%, #f7b733 100%);
@@ -150,7 +151,8 @@ body {
   margin-right: 20px;
   border-radius: 12px;
   line-height: 1px;
-  border: hidden
+  border: hidden;
+  cursor: pointer;
 }
 .nav_item:hover{
   background: linear-gradient(153.43deg, #c6ffdd 16.67%, #fbd786 100%);
