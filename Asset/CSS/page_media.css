@@ -1,7 +1,4 @@
 @media screen and (max-width: 1200px) {
-    .experience{
-        margin-top: 10px;
-    }
     .single_blog{
         justify-content: center;
     }
@@ -33,6 +30,9 @@
 @media screen and (max-width: 768px) {
     .header{
         flex-wrap: wrap;
+    }
+    .experience{
+        margin-top: 10px;
     }
 }
 @media screen and (max-width: 480px) {

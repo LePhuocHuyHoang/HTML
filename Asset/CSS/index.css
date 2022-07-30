@@ -6,14 +6,6 @@ body {
 :root{
     --border-radius-default: 20px;
 }
-/* @font-face {
-  font-family: Poppins;
-  src: url(/Asset/Font/Poppins-Regular.ttf);
-}
-@font-face {
-  font-family: Roboto Slab;
-  src: url(/Asset/Font/RobotoSlab-VariableFont_wght.ttf);
-} */
 .container{
   width: 100%;
   max-width: 1320px;
