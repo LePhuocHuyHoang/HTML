@@ -11,6 +11,8 @@
 .single_blog_img{
     margin-left: 20px;
     margin-top: 20px;
+    border-radius: 12px;
+    box-sizing: border-box;
 }
 .single_blog_bg:nth-child(1) {
     background: #FCF4FF;
@@ -42,7 +44,12 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
-     color: #000000;
+    color: #000000;
+    white-space: nowrap;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    display: inline-block;
+    max-width: 80%;
 }
 .all_rights_reserved{
     width: 850px;
